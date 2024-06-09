@@ -1,0 +1,310 @@
+  .hamburger-nav-container{
+    display: none;
+ }
+ #humberger-button{
+     display: none;
+ }
+ .nav-link {
+  margin-left: 20px;
+  margin-top: 10px;
+  text-decoration: none;
+}
+.nav-style {
+  text-decoration: none;
+  color: black;
+  padding-left: 45px;
+}
+.btn-contac{
+  background-color: black;
+  border-radius: 5px;
+  color: #dbdbdb;
+  padding: 5px;
+}
+
+ .hamburger-nav-container a {
+     color: white;
+     background-color: gray;
+     border: 2px solid;
+     text-align: center;
+     text-decoration: none;
+     padding: 10px;
+ }
+ .hamburger-nav-container .active{
+     background-color: orangered;
+ }
+ @media only screen and (max-width: 500px){
+     #humberger-button{
+         display: block;
+     }
+
+     .nav-closeHumberger{
+         display: none;
+     }
+
+     .hamburger-nav-container{
+         font-size: small;
+         display: none;
+         flex-direction: column;
+     }
+ }
+
+  form {
+    width: 400px;
+    margin: auto;
+    padding: 40px;
+  }
+    
+  input,
+  select,
+  textarea {
+    width: 100%;
+    margin: 10px 0px;
+    border: 10px solid #ffffff;
+    background-color: #dbe4db;
+    border-radius: 5px;
+    resize: none;
+  }
+  
+  label {
+    font-weight: bold;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    bottom: -6px;
+  }
+  .button-container{
+      display: flex;
+      width: 100%;
+      justify-content: flex-end;
+  }
+  
+  .submit-button {
+    display: inline-block;
+    background-color: #040505;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 15px;
+    font-size: smaller;
+    font-weight: bold;
+    text-align: right;
+    padding: 5px 10px;
+  }
+  
+  .judul {
+    margin: auto;
+    padding: 40px;
+  }
+ .d-flex {
+    display: flex;
+ }
+
+/* copy */
+
+ .card{
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+ }
+ .card img{
+  width: 100%;
+  border-radius: 10px;
+  display: block;
+}
+.card-area {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 40px;
+  margin-top: 50px;
+}
+
+.blog{
+  width: 100%;
+  height: 0;
+  background: rgba(53, 105, 109, 0.8) ;
+  border-radius: 10px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 40px;
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+}
+
+.card:hover .blog {
+  height: 100%;
+}
+.blog h3 {
+  font-weight: 700;
+  /* margin-bottom: 50px; */
+  font-family: "Dancing Script", cursive;
+  font-size: 25px;
+  letter-spacing: 2px;
+}
+.blog .date{
+  color: #373A40;
+  font-weight: bold;
+}
+.blog p{
+  overflow-wrap: break-word;
+  text-align: justify;
+  color: #fff;
+  font-weight: 700;
+}
+.blog .logo-tech{
+  display: flex;
+  justify-content: start;
+  margin-top: 10px;
+  font-size: 15px;
+}
+.blog .logo-tech i{
+ margin-right: 10px;
+}
+.blog a {
+  margin-top: 20px;
+  color: #000;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: lighter;
+}
+.blog button{ 
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 600;
+  margin-top: 15px;
+}
+.blog .edit-btn{
+  background-color: #2b8292;
+  color: #fff;
+}
+.blog .delete-btn{
+  background-color: #666;
+  color: #000;
+}
+.project-section {
+  position: relative;
+  background-color: #000000;
+  padding: 8rem 7% 1.4rem;
+}
+.project-section h2 {
+  color: #fff;
+  text-align: center;
+  font-size: 2.2rem;
+  font-family: "Teko", sans-serif;
+}
+.project-container {
+  padding: 10px 10%;
+}
+
+
+.form-box .input-box {
+  margin: 10px 0;
+  width: 330px;
+}
+.form-box label {
+  font-size: 1.2rem;
+  font-weight: 800;
+  font-family: "Teko", sans-serif;
+}
+.form-box .date-box {
+  margin: 10px 0;
+  width: 330px;
+  display: flex;
+  justify-content: space-between;
+}
+.form-box .date-box input {
+  font-size: 1rem;
+  background: transparent;
+  backdrop-filter: blur(5px);
+  border: none;
+}
+.date-box .startdate,
+.date-box .enddate {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+.form-box .input-box input {
+  background: #fff;
+  border: none;
+  outline: none;
+  width: 100%;
+  height: 30px;
+  padding: 5px;
+  font-size: 0.8rem;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background-color: rgba(1, 1, 1, 0.2);
+  color: #fffa;
+}
+.form-box .input-box textarea {
+  background: #fff;
+  border: none;
+  outline: none;
+  resize: none;
+  width: 100%;
+  height: 100px;
+  padding: 5px;
+  font-size: 0.8rem;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background-color: rgba(1, 1, 1, 0.2);
+  color: #fffa;
+}
+.tech-section {
+  display: flex;
+  justify-content: space-between;
+}
+.tech-section p {
+  font-size: 1.2rem;
+}
+.tech-section p input {
+  accent-color: #11343a;
+}
+.image-box {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5px;
+}
+.image-box input {
+  font-size: 1.1rem;
+  background-color: rgba(1, 1, 1, 0.2);
+}
+
+.btn {
+  justify-items: center;
+  height: 45px;
+  margin: 5px 15px;
+  width: 90%;
+  border-radius: 40px;
+  font-family: "Teko", sans-serif;
+  font-weight: 700;
+  color: #fff;
+  background-color: #11343a;
+  border: 2px solid #0c4345;
+  outline: none;
+  cursor: pointer;
+  font-size: 1.2rem;
+  letter-spacing: 2px;
+  transition: all 0.3s ease;
+}
+.btn:hover {
+  transform: scale(1.05);
+}
+
+.subject1 {
+  font-style: italic;
+  color: #000;
+  margin: auto;
+}
+
+.message1 {
+  margin: auto;
+}

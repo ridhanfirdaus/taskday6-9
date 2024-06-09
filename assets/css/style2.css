@@ -1,0 +1,41 @@
+ input,
+ select,
+ textarea {
+   width: 100%;
+   margin: 10px 0px;
+   border: 10px solid #dbdbdb;
+   background-color: #dbe4db;
+   border-radius: 5px;
+   resize: none;
+ }
+ 
+ label {
+   font-weight: bold;
+   font-size: 15px;
+   font-family: Arial, Helvetica, sans-serif;
+   position: relative;
+   bottom: -6px;
+ }
+ .button-container{
+     display: flex;
+     width: 100%;
+     justify-content: flex-end;
+ }
+ 
+ .submit-button {
+   display: inline-block;
+   background-color: #040505;
+   color: #fff;
+   text-decoration: none;
+   border-radius: 15px;
+   font-size: smaller;
+   font-weight: bold;
+   text-align: right;
+   padding: 5px 10px;
+ }
+ 
+ .judul {
+   margin: auto;
+   padding: 40px;
+ }
+ 

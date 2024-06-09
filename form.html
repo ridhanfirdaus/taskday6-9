@@ -1,0 +1,148 @@
+<html>
+  <head>
+    <title>latian</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/form.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  </head>
+  <body style="background-color: rgb(218, 220, 220)">
+    <nav style=" background-color:aliceblue; height: 80px;">
+      <div style="display: flex; align-items: center; height: 100%; margin-right: 30px; justify-content: space-between;">
+          <ul style="display: flex; list-style: none;">
+              <li>
+                  <a href="index.html"><img style="height: 45px;" src="assets/img/dumbways1.png" alt="logo dumbaways"> 
+              </li>
+                  <li class="nav-link nav-closeHumberger">
+                      <a class="nav-style" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-link nav-closeHumberger">
+                      <a class="nav-style" href="form.html">My Project</a>
+                  </li> 
+                  <li class="nav-link nav-closeHumberger">
+                    <a class="nav-style" href="testimonial.html">Testimonial</a>
+                </li>
+          </ul>
+          <div>
+              <a style="text-decoration: none;" href="contac.html" class="btn-contac nav-closeHumberger">Contact Me</a>
+              <i class="fa-solid fa-bars" style="cursor: pointer;" id="humberger-button" onclick="openHumberger()" ></i>
+          </div>
+      </div>
+  </nav>
+  <div class="hamburger-nav-container" id="hamburger-nav-container">
+      <a href="index.html" class="active">Home</a>
+      <a href="form.html">My Project</a>
+      <a href="testimonial.html">Testimonial</a>
+      <a href="contac.html">Contac Me</a>
+  </div>
+      <h2 style="text-align: center; font-weight: 600; margin-top: 50px">
+        ADD MY PROJECT
+      </h2>
+    </div>
+
+    <form id="formContact">
+      <div>
+        <label for="Name">Name</label>
+        <input
+          style="background-color: white"
+          type="text"
+          id="name"
+          placeholder="..."
+        />
+      </div>
+      <div class="d-flex">
+        <div style="margin-right: 10px; width: 155px">
+          <label for="startdate">startdate</label>
+          <input
+            style="background-color: white"
+            type="date"
+            id="startdate"
+            placeholder="..."
+          />
+        </div>
+        <div style="width: 155px">
+          <label for="enddate">enddate</label>
+          <input
+            style="background-color: white"
+            type="date"
+            id="enddate"
+            placeholder="..."
+          />
+        </div>
+      </div>
+      <div>
+        <label for="message">Your message</label>
+        <textarea style="background-color: white" id="message"></textarea>
+      </div>
+      <div>
+        <label for="subject">subject</label>
+        <div class="d-flex" style="margin-top: 5px">
+          <div class="d-flex" style="margin-right: 10px">
+            <input
+              type="checkbox"
+              id="subject"
+              name="brand"
+              value="nodejs"
+              style="margin-right: 5px"
+            />
+            <label for="subject">Nodejs</label>
+          </div>
+          <div class="d-flex" style="margin-right: 10px">
+            <input
+              type="checkbox"
+              id="subject"
+              name="brand"
+              value="nextjs"
+              style="margin-right: 5px"
+            />
+            <label for="subject">nextjs</label>
+          </div>
+        </div>
+        <div class="d-flex">
+          <div class="d-flex" style="margin-right: 10px">
+            <input
+              type="checkbox"
+              id="subject"
+              name="brand"
+              value="reactjs"
+              style="margin-right: 5px"
+            />
+            <label for="subject">reactjs</label>
+          </div>
+          <div class="d-flex" style="margin-right: 10px">
+            <input
+              type="checkbox"
+              id="typescript"
+              name="brand"
+              value="typescript"
+              style="margin-right: 5px"
+            />
+            <label for="subject">typescript</label>
+          </div>
+        </div>
+      </div>
+      <div>
+        <label for="image">image</label>
+        <input
+          style="background-color: white"
+          type="file"
+          id="image"
+          accept="image"
+        />
+      </div>
+      <div class="button-container">
+        <button type="submit" class="submit-button">submit</button>
+      </div>
+    </form>
+
+    <section class="project-section">
+      <h2 class="project-title">Projects</h2>
+      <div class="project-container">
+        <div class="card-area" id="newCard"></div>
+      </div>
+    </section>
+
+    <script src="assets/js/form.js"></script>
+    <script src="assets/js/nav.js"></script>
+  </body>
+</html>

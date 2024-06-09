@@ -1,0 +1,143 @@
+ .card-container {
+    width: 80%;
+    height: 550px;
+    border-color: black;
+    border-style:solid;
+    margin: auto;
+    padding-top: 50px;
+    padding-right: 10px;
+
+  }
+  .box{
+    box-shadow: 2px 2px 10px black;
+    border-radius: 5px;
+    width: 200px;
+    height: 250px;
+    }
+  .card {
+    float: right; 
+    margin-top: -250px;
+    padding-right: 150px;
+    margin-right: 50px;
+    height: 370px;
+    width: 130px;
+    border-radius: 5px;
+    background-color: #ecebeb;
+  }
+  .nav-link {
+    margin-left: 20px;
+    margin-top: 10px;
+    text-decoration: none;
+}
+.nav-style {
+    text-decoration: none;
+    color: black;
+    padding-left: 45px;
+}
+.btn-contac{
+    background-color: black;
+    border-radius: 5px;
+    color: #dbdbdb;
+    padding: 5px;
+}
+.button-class {
+    display: inline-block;
+    background-color: #070707;
+    color: #fff;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 20px;
+    margin-top: 10px;
+    font-size: small;
+}
+    .button-class2 {
+        text-decoration: none;
+        color: #070707;
+        padding-top: 20px;
+        padding-left: 5px;
+    }
+    .btn-download-cv {
+     padding-top: 10px;
+    }
+    
+    .contact-button {
+      display: inline-block;
+      background-color: #070707;
+      color: #fff;
+      padding: 5px;
+      text-align: center;
+      text-decoration: none;
+      border-radius: 20px;
+      margin-top: 15px;
+      font-size: small;
+      width: 80px;
+    }
+    /* responsive */
+    .flex-icon{
+        margin: auto; 
+        display: flex; 
+        justify-content: center;
+    }
+    
+    .hamburger-nav-container{
+        display: none;
+    }
+    #humberger-button{
+        display: none;
+    }
+    
+    .hamburger-nav-container a {
+        color: white;
+        background-color: gray;
+        border: 2px solid;
+        text-align: center;
+        text-decoration: none;
+        padding: 10px;
+    }
+    .hamburger-nav-container .active{
+        background-color: orangered;
+    }
+
+
+
+
+
+    @media only screen and (max-width: 500px){
+        #humberger-button{
+            display: block;
+        }
+
+        .nav-closeHumberger{
+            display: none;
+        }
+
+        .hamburger-nav-container{
+            font-size: small;
+            display: none;
+            flex-direction: column;
+        }
+        .card-container{
+            display: flex;
+            flex-direction: column;
+            height: 1200px;
+        }
+        .card{
+            display: inline-block;
+            margin-top: 20px;
+            margin-left: 30px;
+        }
+        .card2{
+            display: flex;
+            flex-direction: column;
+            height: 200px;
+            width: 200px;
+        }
+        .card img p h3{
+                display: flex;
+                flex-direction: column;
+                display: none;
+            }
+        
+    }
+  
+    

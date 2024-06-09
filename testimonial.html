@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="assets/testimonial.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"> 
+</head>
+<body>
+    <nav style=" background-color:aliceblue; height: 80px;">
+        <div style="display: flex; align-items: center; height: 100%; margin-right: 30px; justify-content: space-between;">
+            <ul style="display: flex; list-style: none;">
+                <li>
+                    <a href="index.html"><img style="height: 45px;" src="assets/dumbways1.png" alt="logo dumbaways"> 
+                </li>
+                    <li class="nav-link nav-closeHumberger">
+                        <a class="nav-style" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-link nav-closeHumberger">
+                        <a class="nav-style" href="form.html">My Project</a>
+                    </li> 
+                    <li class="nav-link nav-closeHumberger">
+                        <a class="nav-style" href="testimonial.html">Testimonial</a>
+                    </li> 
+            </ul>
+            <div>
+                <a style="text-decoration: none;" href="contac.html" class="btn-contac nav-closeHumberger">Contact Me</a>
+                <i class="fa-solid fa-bars" style="cursor: pointer;" id="humberger-button" onclick="openHumberger()" ></i>
+            </div>
+        </div>
+    </nav>
+    <div class="hamburger-nav-container" id="hamburger-nav-container">
+        <a href="index.html" class="active">Home</a>
+        <a href="form.html">My Project</a>
+        <a href="testimonial.html">Testimonial</a>
+        <a href="contac.html">Contac Me</a>
+    </div>
+
+
+    <div class="Tcontainer">
+        <h1>My Testimonial</h1>
+            <div class="R-container">
+                <h2>Rating by Star</h2>
+                
+                <div class="rating">
+                    <button class="R-button" onclick="showTestimonials()">ALL<i class="fa-solid fa-star"></i></button>
+                    <button class="R-button" onclick="filterTestimonial(1)">1<i class="fa-solid fa-star"></i></button>
+                    <button class="R-button" onclick="filterTestimonial(2)">2<i class="fa-solid fa-star"></i></button>
+                    <button class="R-button" onclick="filterTestimonial(3)">3<i class="fa-solid fa-star"></i></button>
+                    <button class="R-button" onclick="filterTestimonial(4)">4<i class="fa-solid fa-star"></i></button>
+                    <button class="R-button" onclick="filterTestimonial(5)">5<i class="fa-solid fa-star"></i></button>
+                </div>
+                
+            </div>
+
+        <div class="testimonials" id="testimonials">
+            <div class="testimonial">
+                <img src="https://thumb.viva.id/intipseleb/1265x711/2023/04/27/644a53a857ed9-windah-basudara.jpg    " alt="testimonial">
+            <p class="describe">Brando Franco Windah (born 14 March 1992), better known by his online alias Windah Basudara 
+            or simply as Brando, is an Indonesian YouTuber and online streamer, best known for his video game
+             live streaming and Let's Play videos on YouTube and noted for his comedic persona, he is also the 
+             brand ambassador for the Indonesian based esport organization Rex Regum Qeon since 2021.
+            </p>
+            <p class="author">Windah</p>
+            
+            
+        </div>
+    </div>
+</div>
+</body>
+
+<script src="assets/nav.js"></script>
+<script src="assets/testimonial.js"></script>
+</html>

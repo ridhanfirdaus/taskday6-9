@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+    <nav style=" background-color:aliceblue; height: 80px;">
+        <div style="display: flex; align-items: center; height: 100%; margin-right: 30px; justify-content: space-between;">
+            <ul style="display: flex; list-style: none;">
+                <li>
+                    <a href="index.html"><img style="height: 45px;" src="assets/img/dumbways1.png" alt="logo dumbaways"> 
+                </li>
+                    <li class="nav-link nav-closeHumberger">
+                        <a class="nav-style" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-link nav-closeHumberger">
+                        <a class="nav-style" href="form.html">My Project</a>
+                    </li> 
+                    <li class="nav-link nav-closeHumberger">
+                        <a class="nav-style" href="testimonial.html">Testimonial</a>
+                    </li>
+            </ul>
+            <div>
+                <a style="text-decoration: none;" href="contac.html" class="btn-contac nav-closeHumberger">Contact Me</a>
+                <i class="fa-solid fa-bars" style="cursor: pointer;" id="humberger-button" onclick="openHumberger()" ></i>
+            </div>
+        </div>
+    </nav>
+    <div class="hamburger-nav-container" id="hamburger-nav-container">
+        <a href="index.html" class="active">Home</a>
+        <a href="form.html">My Project</a>
+        <a href="testimonial.html">Testimonial</a>
+        <a href="contac.html">Contac Me</a>
+    </div>
+    <br>
+    <div style="border-radius: 10px;
+    border-style: solid;
+    width: 400px;
+    margin: auto;
+    background-color: aliceblue;;
+    border-radius: 10px;">
+    <div>
+        <h4 style="padding: 5px;">HI WELCOME TO MY HUT</h4>
+        <p style="font-size: x-small; font-family: sans-serif; padding: 5px;">
+            Son Heung-min (Korean: 손흥민; Korean pronunciation: [son.ɣɯŋ.min] was born
+            8 July 1992) is a South Korean professional footballer who plays as a
+            forward and captain of both Premier League club Tottenham Hotspur
+            and the South Korean national team. Often considered the greatest
+            Asian footballer of all time
+        </p>
+      </div>
+      <div style="padding: 5px">
+        <a href="contac.html" class="button-class">Contact</a>
+      </div>
+      <br>
+      <div style="padding: 5px" >
+        <a href="assets/img/CV.pdf" class="button-class2">Download CV</a>
+        <i class="fa-solid fa-download"></i>
+      </div>
+      <br>
+      <div class="flex-icon">
+        <a href="https://www.linkedin.com/in/ridhan-firdaus-b984002b2/" style="padding-right: 20px;">
+            <i class="fa-brands fa-linkedin"></i>
+        </a>
+        <a href="https://www.instagram.com/son_heungdhan/" style="padding-right: 20px;">
+            <i class="fa-brands fa-instagram"></i>
+        </a>
+        <a href="#" style="padding-right: 20px;">
+            <i class="fa-brands fa-twitter"></i>
+        </a>
+        <a href="https://web.facebook.com/profile.php?id=100092327464556">
+          <i class="fa-brands fa-square-facebook"></i>
+        </a>
+      </div>
+      <br>
+      <div style="padding: 5px;">
+          <div class="card">
+              <img src="assets/img/ridh.jpg" alt="ridhan" style="width: 100%; border-radius: 5px; justify-content: end; "/>
+              <h5 style="text-align: center; margin: auto;">Sonheungdhan</h5>
+              <p style="text-align: center; margin: auto; font-size: xx-small;">Leftwing Tottenham</p>
+            </div>
+        </div>
+    </div>
+    <script src="assets/js/nav.js"></script>
+</body>
+</html>

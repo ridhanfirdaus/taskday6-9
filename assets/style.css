@@ -1,0 +1,76 @@
+.nav-link {
+    margin-left: 20px;
+    margin-top: 10px;
+    text-decoration: none;
+}
+.nav-style {
+    text-decoration: none;
+    color: black;
+    padding-left: 45px
+}
+.btn-contac{
+    background-color: black;
+    border-radius: 5px;
+    color: #dbdbdb;
+    padding: 5px;
+}
+.button-class {
+    display: inline-block;
+    background-color: #070707;
+    color: #fff;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 20px;
+    margin-top: 10px;
+    font-size: small;
+    }
+    .button-class2 {
+        text-decoration: none;
+        color: #070707;
+    }
+    .card{
+    border-radius: 10px;
+    width: 200px;
+    height: 250px;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    }
+    .flex-icon{
+        margin: auto; 
+        display: flex; 
+        justify-content: center;
+    }
+    .hamburger-nav-container{
+       display: none;
+    }
+    #humberger-button{
+        display: none;
+    }
+
+    .hamburger-nav-container a {
+        color: white;
+        background-color: gray;
+        border: 2px solid;
+        text-align: center;
+        text-decoration: none;
+        padding: 10px;
+    }
+    .hamburger-nav-container .active{
+        background-color: orangered;
+    }
+    @media only screen and (max-width: 500px){
+        #humberger-button{
+            display: block;
+        }
+
+        .nav-closeHumberger{
+            display: none;
+        }
+
+        .hamburger-nav-container{
+            font-size: small;
+            display: none;
+            flex-direction: column;
+        }
+    }

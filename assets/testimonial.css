@@ -1,0 +1,38 @@
+.Tcontainer{
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.testimonials{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 30px;
+    width: 100%;
+}
+
+.testimonial{
+    width: 25%;
+    margin: 0px 15px 30px 15px;
+    padding: 20px;
+    background-color: aliceblue;
+    box-shadow: 0 0 10px black;
+}
+
+.testimonial img{
+    height: 215px;
+    object-fit: cover;
+    width: 100%;
+}
+
+.describe{
+    line-height: 1.5;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+.R-container{
+    text-align: center;
+}
